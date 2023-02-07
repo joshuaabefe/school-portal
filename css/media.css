@@ -1,0 +1,128 @@
+/* navigation */
+@media (min-width: 992px) {
+    .navPy, #mainNav .navbar-nav {
+        padding-top: 0.05rem !important;
+        padding-bottom: 0.15rem !important;
+    }
+
+    #mainNav {
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    #mainNav .navbar-brand img,
+    #mainNavsucesss .navbar-brand img {
+        width: 50%;
+        height: auto;
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link,
+    #mainNav .login-link {
+        color: #fff;
+        font-size: 0.9rem;
+        padding: 1.75rem 1rem;
+        transition: all 0.2s ease;
+    }
+
+    #mainNav.navbar-shrink {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+      background-color: #fff;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand {
+      color: #fff;
+    }
+    
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+      color: #511c4b;
+    }
+
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover, 
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active {
+      color: #14bf98;
+      background-color: #fff;
+    }
+    
+    #mainNav.navbar-shrink .login-link {
+        color: #14bf98;
+    }
+    
+    #mainNav .btn-getstarted {
+        padding: 0.75rem 1.5rem 0.75rem;
+        border: 0.125rem solid #fff;
+        color: #14bf98;
+        font-size: 0.95rem;
+        background-color: #fff;
+        border-color: #fff;
+    }
+
+    #mainNav.navbar-shrink .btn-getstarted {
+        border: 0.125rem solid #14bf98;
+        color: #fff;
+        background-color: #14bf98;
+        border-color: #14bf98;
+    }
+
+    #mainNav .sm-sh {
+        display: contents;
+    }
+
+    #mainNav .sh .btn-getstarted {
+        display: none;
+    }
+    
+}
+
+/* masthead */
+@media (min-width: 992px) {
+    .bg-img-masthead {
+        padding-top: 7.85rem;
+    }
+    
+    .masthead {
+        padding: 2.5rem 0 1.5rem;
+    }
+
+    .masthead .image-container img {
+        height: auto;
+    }
+    
+}
+
+/* basic class for all containers */
+@media (min-width: 992px) {
+    .basic {
+        padding: 6.5rem 0 4.5rem;
+    }
+    
+}
+
+/* section */
+@media (min-width: 992px) {
+    .section-title {
+        margin-top: 1rem;
+        padding: 1rem 0;
+        width: 32%;
+    }
+    
+}
+
+/* main */
+/* basic class for main tag*/
+@media (min-width: 992px) {
+    .masthead .image-container img {
+        height: auto;
+    } 
+    
+    .masthead .card2 {
+        padding: 2rem 1rem;
+        margin: 0 12rem;
+    }
+
+    .masthead .card .btn-login {
+        right: 0rem;
+        bottom: 0.25rem;
+        position: absolute;
+    }
+    
+}
